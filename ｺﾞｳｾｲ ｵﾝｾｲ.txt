@@ -1,0 +1,9 @@
+100 'ºÞ³¾² µÝ¾²
+110 VIDEO1:CLS:POKE#700,#0D
+120 ?"darumasannga.koronnda.":N=22:GSB@TALK
+130 ?"ichigojamuwa.oisi-ne.":N=21:GSB@TALK
+140 END
+150 @TALK
+160 W=I2CW(#2E,#900,N)
+170 W=I2CW(#2E,#700,1):WAIT200
+180 CLS:RTN
